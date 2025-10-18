@@ -2,7 +2,7 @@ import React from 'react'
 import { FaChevronRight, FaRegUser } from 'react-icons/fa6';
 import { MdDone } from 'react-icons/md';
 
-export default function () {
+export default function sectionTwo() {
   return (
     <div>
       <div className="max-w-[1220px] mx-auto mb-[150px]">
@@ -11,8 +11,8 @@ export default function () {
         </h2>
 
         <div className="px-5 space-y-15">
-          <div className="flex flex-col lg:flex-row justify-between gap-5 mb-6">
-            <div className="bg-[url('/images/bg.webp')] bg-cover bg-[#21263a] rounded-2xl px-7 flex flex-col lg:flex-row gap-22 overflow-hidden">
+          <div className="flex flex-col lg:flex-row  justify-between gap-5 mb-6">
+            <div className="bg-[url('/images/bg.webp')] bg-cover bg-[#21263a] rounded-2xl px-7 flex flex-col sm:flex-row gap-22 overflow-hidden">
               <div className="relative text-white py-7">
                 <h2 className="font-bold text-lg mb-4">Acquisition client - en <br /> automatique</h2>
                 <p className="text-sm font-medium">
@@ -43,7 +43,7 @@ export default function () {
               </div>
               <div className="relative py-7 -mb-7 pr-5">
                 <img loading="lazy" src="images/infomatics1.svg" alt="" />
-                <div className="absolute -left-6 bottom-16 flex gap-[26px]">
+                <div className="absolute -left-3 bottom-16 flex gap-[26px]">
                   <div className="bg-[#e5e7eb]/10 size-[70px] min-w-[70px] p-5 border-2 border-[#e5e7eb]/20 rounded-lg">
                     <FaRegUser size={20} className="text-white/20" />
                     <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-[#00f090] to-[#009efb] rounded-full grid place-items-center opacity-55" >
@@ -94,7 +94,7 @@ export default function () {
                 <img loading="lazy" src="images/informatics3.svg" alt="" />
               </div>
             </div>
-            <div className="bg-[url('/images/bg.webp')] bg-cover bg-[#21263a] rounded-2xl p-6">
+            <div className="bg-[url('/images/bg.webp')] bg-cover bg-[#21263a] rounded-2xl p-6 ">
               <div className="text-white mb-6">
                 <h2 className="font-bold text-lg mb-4">Monétisez vos followers - une <br />audience qui achète</h2>
                 <p className="text-sm font-medium">

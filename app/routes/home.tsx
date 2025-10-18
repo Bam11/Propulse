@@ -2,6 +2,7 @@ import type { Route } from "./+types/home";
 import SectionOne from "~/components/sectionOne";
 import SectionTwo from "~/components/sectionTwo";
 import SectionThree from "~/components/sectionThree";
+import SectionFour from "~/components/sectionFour";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -16,6 +17,7 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function SectionOne() {
             Comment ça marche?
           </h2>
           <div className="flex flex-col md:flex-row justify-between items-start px-[20px] gap-20 ">
-            <div className="w-[320px] lg:w-[600px] lg:sticky top-0 ">
+            <div className="w-[320px] lg:w-[600px] md:sticky top-0 ">
               <img
                 className="w-full" src="images/video.png" alt="video"
                 loading="lazy"
