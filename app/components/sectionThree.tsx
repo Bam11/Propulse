@@ -18,7 +18,7 @@ export default function sectionThree() {
             <FaArrowLeft size={18} className="text-gray-400" />
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row items-center gap-6 ">
+        <div className="flex flex-col sm:flex-row items-center gap-6">
           <div className="p-5 flex flex-col gap-8 items-center border border-gray-200 rounded-xl">
             <div className="bg-[#ff7900] w-[341px] h-[280px] rounded-xl flex items-center px-8">
               <img src="/images/orange.webp" alt="" />

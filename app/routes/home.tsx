@@ -3,6 +3,7 @@ import SectionOne from "~/components/sectionOne";
 import SectionTwo from "~/components/sectionTwo";
 import SectionThree from "~/components/sectionThree";
 import SectionFour from "~/components/sectionFour";
+import BlackFridayOffer from "~/components/black-friday-offer";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <BlackFridayOffer />
     </div>
   );
 }
